@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.agregar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 4em;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    width: 100%;
+}
+
+.contenedorBoton{
+    margin-left: 2em;
+}
+
+.textArea{
+    height: 50px;
+    resize: none;
+}
+
+.boton{
+    width: 110%;
+    background-color: rgb(94, 166, 225);
+    border: none;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: rgb(35, 147, 238);
+}
+
+.misTweets{
+    margin-left: 4em;
+    width: 20%;
+}
+
+.misTweetsTitulo{
+    font-size: xx-large;
+}
+
+.error{
+    background-color: red;
+    padding: 0.5em;
+    color: white;
+    width: 100%;
+    font-size: small;
+}
+
+.botonEliminar{
+    color: red;
+    background-color: white;
+    border: none;
+}
+
+.botonEliminar:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
