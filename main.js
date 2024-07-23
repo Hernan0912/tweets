@@ -11,7 +11,6 @@ boton.addEventListener("click", agregarTweet)
 
 document.addEventListener("DOMContentLoaded", () => {
     arrayTweets = JSON.parse(localStorage.getItem("arrayTweets")) || []
-    console.log("arrayTweets: ",arrayTweets)
     crearHtml()
 })
 
@@ -66,12 +65,10 @@ function crearHtml(){
 
         });
     }
-    console.log("arrayTweets: ",arrayTweets)
     guardarEnStorage("arrayTweets", arrayTweets)
 }
 
 function borrarTweet(id){
-    console.log("Borrando ",id)
     arrayTweets = arrayTweets.filter(elemtent => elemtent.id !== id)
     crearHtml()
 }
